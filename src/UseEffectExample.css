@@ -1,0 +1,17 @@
+.Cocks{
+    text-align:center;
+}
+.cocktail{
+    display:grid;
+   grid-template-columns: 1fr;
+   gap:2rem;
+
+}
+.cocktail li img{
+   width:100%;
+}
+@media screen and (min-width:769px){
+    .cocktail{
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
